@@ -1,0 +1,42 @@
+.title-AbouteMe{
+    text-align: center;
+    background-color: #81d4fa;
+}
+
+
+.loquesea{
+padding-top: 20px;
+}
+
+.content-uni ,.content-hobbis ,.content-me{
+    height: 400px;
+    width:  700px;
+    background-color: white;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+
+}
+
+.imagen-cabeza{
+    height: 280px;
+    width:  600px;
+    margin-left: 45px;
+    background-image: url("../assets/img/ucab.jpg");
+    border-radius: 20px;
+}
+
+.pie-fondo{
+    margin-left: 45px;
+    width:  600px;
+    background-color: white;
+}
+
+.content-hobbis, .content-me{
+    margin-left: 10vh;
+}
+
+
+.content-uni{
+    margin-left: 110vh;
+}
