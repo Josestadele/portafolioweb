@@ -4,6 +4,7 @@ import "../../style/Card.css"
 
 const ProjectsList = ({projects}) => {
    // const projects= props.projects;
+  
     return (  
         <div className="project-list">
             <Typography  component='div' >
@@ -15,15 +16,17 @@ const ProjectsList = ({projects}) => {
                 <Grid container >
                     {projects.map((projects) => (
                         <Card className= "card"  key={projects.id} >
-                            <CardMedia>
-                                <h6>imagen</h6>
-                            </CardMedia>
+                            <CardMedia src={projects.img} >  </CardMedia>            
+
+                            
                             <CardContent>
                                 <div><h2>{projects.title}</h2></div>
-                                <div><h6>{projects.body}</h6></div>     
+                                <div><h6>{projects.body}</h6></div>  
+                                <div>{projects.caracteristicas}</div>
+                                   
                             </CardContent>
                             <CardActionArea>
-                                <h6> {projects.link} </h6>
+                                <h6> proximamente link </h6>
                             </CardActionArea>
                         </Card>
                     ))}
