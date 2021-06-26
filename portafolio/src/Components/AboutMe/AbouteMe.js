@@ -5,50 +5,24 @@ const AbouteMe = () => {
 
     return(
         <div className="title-AbouteMe">
-            <h2> Hey gracias por tu tiempo y conocerme un poco mas</h2>
-
-            <div className="content-me">
-                <div className="loquesea">
-                    <div className="imagen-cabeza"></div>
+           
                     
                     <div className="pie-fondo">
-                                <p> Mi nombre es Jose Manuel Gonzalez 
-                                    actualmente me encuentro en caracas Venezuela
-                                    y estoy por finalizar mis estudios y pornelos en practica 
+                         <h2>  Mi nombre es Jose Manuel Gonzalez</h2>
+                                <p>
+                                     
+                                    actualmente me encuentro en caracas Venezuela  
+                                    Soy un ingienero junior con ganas de conocer cada dia mas sobre diferentes teccnologias 
+                                    siempre tengo ganas de  aprender y profundizar un poco mas en el mundo del Desarrollo del Software. 
+                                    <br/> 
+                                    Mis estudios fueron realizados en la Universidad Catolica Andres Bello.
+                                    Me encuentro en mi 9no semestre de mi carrera , estoy buscando un proyecto de grado para poder culminar
+                                    <br/>
+                                    <br/>
+                                    Gracias por Tomarte la molestia de leer 
                                 </p>
                     </div>
-                </div>
-            </div>
-
-            <div className="content-uni">
-                <div className="loquesea">
-                     <div className="imagen-cabeza"></div>
-
-                    <div className="pie-fondo">
-                        <p>
-                            Mis estudios fueron realizados en la Universidad Catolica Andres Bello.
-                            Me encuentro en mi 9no semestre de mi carrera 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="content-hobbis">
-                <div className="loquesea">
-                    <div className="imagen-cabeza"></div>
-
-                    <div className="pie-fondo">
-                        <p> 
-                            Me gusta mucho la biologia maria y tambien cuidar el medio ambiente, me gustaria poner mi conocimientos 
-                            en proyectos en los que pueda ayudar a nuestro planeta o para ayudar animales. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                
-            </div>
+           
 
         </div>
     );

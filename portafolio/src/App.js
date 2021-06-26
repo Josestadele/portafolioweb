@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
-//import AboutMe from './Components/AboutMe/AbouteMe';
+import AboutMe from './Components/AboutMe/AbouteMe';
 import Skills from './Components/Skills/Skills'
 //import Contact from './Components/Contact/Contact';
 
@@ -36,7 +36,7 @@ function App() {
               </Route>
 
               <Route path="/AboutMe">
-               
+               <AboutMe />
               </Route>
 
               <Route path="/skills">
