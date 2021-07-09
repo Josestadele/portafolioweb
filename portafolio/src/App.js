@@ -26,12 +26,11 @@ function App() {
         </div>
 
             <Switch>
-
               <Route path="/projects">
                 <Projects />
               </Route>
 
-              <Route exact path="/">
+              <Route exact path="/home">
                 <Home />
               </Route>
 

@@ -42,7 +42,7 @@ const Navbar = () => {
                     
                 </Typography>
                 <Typography component={'div'}>
-                    <Link className={classe.Link} style={{ paddingLeft: 20 ,textDecoration: 'none' }} to="/"> Home</Link>
+                    <Link className={classe.Link} style={{ paddingLeft: 20 ,textDecoration: 'none' }} to="/home"> Home</Link>
                     <Link className={classe.Link} style={{ paddingLeft: 20 ,textDecoration: 'none'}}to="/aboutMe"> About <span className={classe.colorText}>me</span></Link>
                     <Link className={classe.Link} style={{ paddingLeft: 20 ,textDecoration: 'none'}}to="/skills"> Skills</Link>
                     <Link className={classe.Link} style={{ paddingLeft: 20 ,textDecoration: 'none'}}to="/projects"> Projects</Link>

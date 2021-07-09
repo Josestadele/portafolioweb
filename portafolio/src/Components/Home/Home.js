@@ -1,10 +1,7 @@
 import {useEffect ,useState,React} from 'react'
 import {IconButton, Typography,Collapse}  from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import {Link} from 'react-router-dom'
-
-
-
+import {Link} from 'react-router-dom';
 import {makeStyles} from '@material-ui/core/styles';
 
 const staylest = makeStyles((theme)=>({
@@ -16,9 +13,7 @@ const staylest = makeStyles((theme)=>({
       justifyContent:'center',
       paddingLeft:20,
       alignItems:'center',
-      
-      
-     
+  
    },
    colorText:{
       color:'#FFD700'

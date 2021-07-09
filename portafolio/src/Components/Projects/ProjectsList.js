@@ -13,17 +13,15 @@ const ProjectsList = ({projects}) => {
 
 
             
-                <Grid container >
+                <Grid container direction="row" >
                     {projects.map((projects) => (
                         <Card className= "card"  key={projects.id} >
                             <CardMedia src={projects.img} >  </CardMedia>            
-
-                            
+  
                             <CardContent>
-                                <div><h2>{projects.title}</h2></div>
+                                <div><h4>{projects.title}</h4></div>
                                 <div><h6>{projects.body}</h6></div>  
-                                <div>{projects.caracteristicas}</div>
-                                   
+                                <div>{projects.caracteristicas}</div>     
                             </CardContent>
                             <CardActionArea>
                                 <h6> proximamente link </h6>

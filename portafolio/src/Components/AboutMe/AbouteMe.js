@@ -4,26 +4,21 @@ import '../../style/AbouteMe.css';
 const AbouteMe = () => {
 
     return(
-        <div className="title-AbouteMe">
-           
+        <div className="container">    
+            <div className="informacion">
+                <h2>  Mi nombre es <span className="colorText"> Jose Manuel Gonzalez Stadele</span> </h2>
+                <p>   
+                Actualmente me encuentro culminando mi último año de la carrera de <span className="colorText">Ing Informática</span> en la <span className="colorText">Universidad Católica Andrés Bello.</span> 
+                Proactivo y con buen desempeño laboral, tengo experiencia en herramientas <span className="colorText">React.js, Angular.js </span> para el desarrollo Front-End. 
+                He trabajado con diferentes manejador de base de datos como <span className="colorText">Oracle, Mysql y PostgreSQL </span> y 
+                para el desarrollo de Back-End con 1 año de experiencia en JavaEE.
+                    <br/>
+                    <br/>
+                    Gracias por Tomarte la molestia de leer 
+                </p>
+            </div>
+        
                     
-                    <div className="pie-fondo">
-                         <h2>  Mi nombre es Jose Manuel Gonzalez</h2>
-                                <p>
-                                     
-                                    actualmente me encuentro en caracas Venezuela  
-                                    Soy un ingienero junior con ganas de conocer cada dia mas sobre diferentes teccnologias 
-                                    siempre tengo ganas de  aprender y profundizar un poco mas en el mundo del Desarrollo del Software. 
-                                    <br/> 
-                                    Mis estudios fueron realizados en la Universidad Catolica Andres Bello.
-                                    Me encuentro en mi 9no semestre de mi carrera , estoy buscando un proyecto de grado para poder culminar
-                                    <br/>
-                                    <br/>
-                                    Gracias por Tomarte la molestia de leer 
-                                </p>
-                    </div>
-           
-
         </div>
     );
 }
