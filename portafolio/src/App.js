@@ -30,7 +30,7 @@ function App() {
                 <Projects />
               </Route>
 
-              <Route exact path="/home">
+              <Route exact path="https://josestadele.github.io/portafolioweb/">
                 <Home />
               </Route>
 
