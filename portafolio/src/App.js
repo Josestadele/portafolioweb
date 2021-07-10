@@ -26,23 +26,24 @@ function App() {
         </div>
 
             <Switch>
+
+            <Route exact path="/">
+                <Home />
+              </Route>
+              
               <Route path="/projects">
                 <Projects />
               </Route>
 
-              <Route exact path="https://josestadele.github.io/portafolioweb/">
-                <Home />
-              </Route>
-
-              <Route path="https://josestadele.github.io/portafolioweb/AboutMe">
+              <Route path="/AboutMe">
                <AboutMe />
               </Route>
 
-              <Route path="https://josestadele.github.io/portafolioweb/skills">
+              <Route path="/skills">
                <Skills />
               </Route>
 
-              <Route path="https://josestadele.github.io/portafolioweb/contact">
+              <Route path="/contact">
                
               </Route>
 
