@@ -34,15 +34,15 @@ function App() {
                 <Home />
               </Route>
 
-              <Route path="https://josestadele.github.io/portafolioweb//AboutMe">
+              <Route path="https://josestadele.github.io/portafolioweb/AboutMe">
                <AboutMe />
               </Route>
 
-              <Route path="https://josestadele.github.io/portafolioweb//skills">
+              <Route path="https://josestadele.github.io/portafolioweb/skills">
                <Skills />
               </Route>
 
-              <Route path="https://josestadele.github.io/portafolioweb//contact">
+              <Route path="https://josestadele.github.io/portafolioweb/contact">
                
               </Route>
 
